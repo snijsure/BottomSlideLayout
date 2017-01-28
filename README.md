@@ -6,4 +6,4 @@ app use these types of layout. YMMV
 I had posted question on stackoverflow if something like this can be achived using 
 stock BottomSheet , which doesn't support this functoinality.
 
-
+You can find youtube video here - https://youtu.be/T6jAWLSYgQA
