@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">BottomSlideLayout</string>
+
+
+    <string name="text_pull_to_show_more">pull to show more content</string>
+    <string name="text_showing_sheet_content">Bottom sheet content</string>
+    <string name="text_click_me">Click me</string>
+    <string name="title1">Point of Interest 1</string>
+    <string name="title2">Point of Interest 2</string>
+    <string name="text_more_content_to_user">
+        We can show the user more content here. Add more UI widgets, texts etc.
+    </string>
+
+    <string name="text_lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </string>
+    <string-array name="curated_collection_images">
+        <item>http://www.nationalgeographic.com/content/dam/travel/2016-digital/greatest-landscapes/golden-gate-bridge-san-francisco-california.ngsversion.1480948211915.adapt.1900.1.jpg</item>
+        <item>http://www.nationalgeographic.com/content/dam/travel/2016-digital/best-travel-photos-2016/elephant-andaman-islands-india.ngsversion.1481070618841.adapt.1900.1.jpg</item>
+        <item>http://www.nationalgeographic.com/content/dam/travel/2016-digital/best-travel-photos-2016/volcanoes-national-park-rwanada.ngsversion.1481070617145.adapt.1900.1.jpg</item>
+        <item>http://www.nationalgeographic.com/content/dam/travel/2016-digital/greatest-landscapes/mattherhorn-pennine-alps-italy-switzerland-.ngsversion.1480948213333.adapt.1900.1.jpg</item>
+        <item>http://www.nationalgeographic.com/content/dam/travel/2016-digital/greatest-landscapes/lighthouse-llanddwyn-island-anglesey-wales.ngsversion.1484044203682.adapt.1900.1.jpg</item>
+        <item>http://www.nationalgeographic.com/content/dam/travel/2016-digital/greatest-landscapes/fishermen-silts-koggala-sri-lanka.ngsversion.1480948207401.adapt.1900.1.jpg</item>
+        <item>http://www.nationalgeographic.com/content/dam/travel/2016-digital/greatest-landscapes/windmills-edelstal-austria.ngsversion.1480948211914.adapt.1900.1.jpg</item>
+        <item>http://www.nationalgeographic.com/content/dam/travel/2016-digital/greatest-landscapes/neuschwanstein-castle-bavaria-germany.ngsversion.1480948209521.adapt.1900.1.jpg</item>
+        <item>http://www.nationalgeographic.com/content/dam/travel/2016-digital/greatest-landscapes/tree-archway-vienna-austria.ngsversion.1480948212562.adapt.1900.1.jpg</item>
+        <item>http://www.nationalgeographic.com/content/dam/travel/2016-digital/greatest-landscapes/countryside-frost-pestera-romania.ngsversion.1480948214003.adapt.1900.1.jpg</item>
+        <item>http://www.nationalgeographic.com/content/dam/travel/2016-digital/greatest-landscapes/athabasca-river-jasper-national-park.ngsversion.1480948210204.adapt.1900.1.jpg</item>
+    </string-array>
+</resources>

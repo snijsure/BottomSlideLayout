@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.snijsure.sample.bottomslidelayout.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/googleMapHolder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/map"
+            class="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/showme"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Show List"
+            android:visibility="invisible"
+            />
+    </RelativeLayout>
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+        android:id="@+id/slidingContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/curatedCollectionHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp">
+
+            <View
+                android:id="@+id/headerView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/flexible_space_image_height"
+                android:background="@android:color/transparent" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                >
+
+
+                <TextView
+                    android:id="@+id/title_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title1"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_curate_images"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_text1"
+                    android:clipToPadding="false"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:visibility="visible"/>
+
+                <TextView
+                    android:id="@+id/title_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/recycler_curate_images"
+                    android:text="@string/title2"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_curate_images_second"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_text2"
+                    android:clipToPadding="false"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:visibility="visible"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
